@@ -69,7 +69,7 @@ To **update** or **delete** a tag, make a PUT or DELETE request to `/api/tags/id
 
 ## Demo video
 
-https://user-images.githubusercontent.com/5232938/182014047-46431d76-a6e6-4c41-8c0e-bd4109896fd5.mp4
+https://user-images.githubusercontent.com/5232938/182271730-590e82ef-15eb-4706-954b-748013b4d365.mp4
 
 
 ## License
