@@ -53,7 +53,7 @@ To **add a product**, send a POST request to `/api/products` with a json body co
 ````
 This will respond with the newly-created product's ID.
 
-To **update** or **delete** a product, make a PUT or DELETE request to `/api/products/id`, where "id" is your target product's ID number. Include the fields to update in the body of your request.
+To **update** or **delete** a product, make a PUT or DELETE request to `/api/products/id`, where "id" is your target product's ID number. Include the fields to update in the body of your request. Note: product PUT requests *must include* `tagIds`.
 
 ### Tags
 To **add a tag**, send a POST request to `/api/tags` with a json body containing the new tag's name, like so:
